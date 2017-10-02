@@ -1,0 +1,21 @@
+body{
+    font-family:Arial;
+}
+.container{
+    max-width:1020px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+}
+
+hr{
+    border-color: ghostwhite;
+}
+
+.exemple{
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius:5px;
+    text-decoration: none;
+}
