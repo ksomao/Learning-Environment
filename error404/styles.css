@@ -1,0 +1,88 @@
+*{
+    margin: 0 auto;
+}
+
+body{
+    overflow: hidden;
+}
+
+.btn-retour{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.45);
+    color: #ffffff;
+    border-radius: 20px;
+    border: 2px solid white;
+    width: 100px;
+    font-size: 20px;
+}
+
+.point{
+    position: absolute;
+    background: white;
+    width: 10px;
+    height:10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    top: 5px;
+    left: 5px;
+}
+
+.container{
+    background: url("./cactus.jpg") center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    padding: 200px;
+}
+
+.content{
+    position: relative;
+    margin: 5% auto 0px;
+    width: 40%;
+    transform-origin: top left;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+}
+
+.content{
+    animation: infinite-spinning 8s infinite;
+}
+
+.content h1{
+    color: white;
+    font-size: 200px;
+    text-align: center;
+}
+
+.content p{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+@keyframes infinite-spinning {
+
+    0% {
+        transform: rotate(40deg);
+    }
+
+    25% {
+        transform: rotate(60deg);
+    }
+
+    50% {
+        transform: rotate(40deg);
+    }
+
+    75% {
+        transform: rotate(60deg);
+    }
+
+    100% {
+        transform: rotate(40deg);
+    }
+}
