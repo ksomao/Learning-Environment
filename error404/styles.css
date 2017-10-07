@@ -39,17 +39,19 @@ body{
     padding: 200px;
 }
 
-.content{
-    position: relative;
-    margin: 5% auto 0px;
-    width: 40%;
-    transform-origin: top left;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 30px;
+.container:hover> .content{
+    animation: infinite-spinning 8s infinite;
 }
 
 .content{
-    animation: infinite-spinning 8s infinite;
+    transform: rotate(40deg);
+    position: relative;
+    margin: 5% auto 0px;
+    width: 40%;
+    min-width: 320px;
+    transform-origin: top left;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
 }
 
 .content h1{
