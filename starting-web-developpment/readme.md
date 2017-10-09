@@ -1,6 +1,6 @@
-#Exercice 8
+# Exercice 8
 
-##Présentation du code
+## Présentation du code
 
 Mon code est divisé en trois grandes sections 
 
@@ -14,4 +14,4 @@ qui me permet de leur appliquer un aspect similaire.
 Chacune de ces sections dispose aussi de sa propre classe
 qui va permettre de travailler leur contenu.
 
-Pas de difficulté rencontrées pendant l'exercice. 
+Pas de difficulté rencontrée pendant l'exercice. 
