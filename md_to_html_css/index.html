@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <h1>exercice-markdown</h1>
+    <hr>
+
+    <!--PARTIE 1 KEVIN TIRTRES ET PARAGRAPHES-->
+    <p>Exercice markdown et github en collaboration</p>
+    <h3>Les Titres</h3>
+    <p>Les titres en Markdown sont précédés du signe "#"(dièse) et le nombre de dièse se situant devant le titre
+        définissent
+        le niveau du titre. Ainsi un dièse devant du texte, sera l'équivalent d'un titre h1 en html, deux dièse pour un
+        titre h2 etc...</p>
+
+    <h4>Exemple :</h4>
+
+    <div class="exemple">
+        <p># titre1 <br>
+            ## titre2 <br>
+            ### titre3 </p>
+    </div>
+
+    <h4>Resultat :</h4>
+    <h1>titre1</h1>
+    <hr>
+    <h2>titre2</h2>
+    <hr>
+    <h3>titre3</h3>
+
+    <h3>Les Paragraphes</h3>
+    <p>Markdowns permet de mettre en évidence certaines parties du texte dans les paragraphes. Entourer le texte
+        d'astérisques
+        permet de le rendre italique, l'entourer de double astérisques le rendent gras. Les triples astériques
+        permettent,
+        d'accentuer la mise en évidence en combinant les deux effets précédents.</p>
+
+    <h4>Exemple :</h4>
+
+    <div class="exemple">
+        <p>*mon texte italique* <br>
+            **mont texte gras** <br>
+            ***mon texte italique et gras***</p>
+    </div>
+
+    <h4>Resultat :</h4>
+    <em>texte</em><br>
+    <strong>texte</strong><br>
+    <strong><em>texte</em></strong><br>
+    <!-- FIN PARTIE 1 KEVIN TIRTRES ET PARAGRAPHES-->
+
+    <!--PARTIE 2 ILLIAS LISTES -->
+    <h1>Les différentes listes</h1>
+    <p>Cette partie traitera de l'ajout de listes à puces, de listes numériques ainsi que de listes imbriquées.
+
+        Nous commencerons par expliquer comment les ajouter de manière très simple suivis d'un exemple en image pour
+        chaque
+        listes.</p>
+
+    <!--PREMIERE LISTE -->
+    <h2>1. La liste à puces:</h2>
+    <p>
+        Lorsque vous avez plusieurs élément à afficher dans une liste non-ordonnée (sans numérotation), il vous suffi de
+        commencer chaque ligne de code par une * suivis d'un espace puis de l'élément à lister.
+    </p>
+
+    <p>Par exemple:</p>
+    <ul>
+        <li>Belgique</li>
+        <li>Allemagne</li>
+        <li>France</li>
+        <li>. . .</li>
+    </ul>
+
+    <p>Comment y arriver ?</p>
+    <div class="exemple">
+        <ul>
+            <li>Belgique</li>
+            <li>Allemagne</li>
+            <li>France</li>
+            <li>. . .</li>
+        </ul>
+    </div>
+    <!--FIN LISTE-->
+
+    <!--DEUXIEME LISTE-->
+    <h2>2. La liste numérique:</h2>
+    <hr>
+    <p>
+        Imaginons que, suite à une compétition, vous avez un classement à afficher. C'est dans cette rubrique que vous
+        trouverez
+        la manière d'y parvenir.
+        Il vous suffira de commencer la liste par un 1. suivis d'un espace puis de l'élément à placer en 1er.
+        Ce qui diffère de la liste à puces, c'est qu'il faudra commencer les lignes suivantes par 2. , 3. , etc..
+    </p>
+
+    <p>Par exemle:</p>
+    <ol>
+        <li>Belgique</li>
+        <li>Allemagne</li>
+        <li>France</li>
+    </ol>
+
+    <p>Voici comment faire:</p>
+    <div class="exemple">
+        <ol>
+            <li>Belgique</li>
+            <li>Allemagne</li>
+            <li>France</li>
+        </ol>
+    </div>
+    <!--FIN LISTE-->
+
+    <!--TROISIEME LISTE-->
+    <h2>3. La liste imbriquées:</h2>
+    <hr>
+    <p>Il est aussi possible d'imbriquer une liste dans une autre lorsque vous avez besoin d'afficher des
+        sous-éléments.</p>
+
+    <h5>Liste à puces:</h5>
+    <ul>
+        <li>Belgique
+            <ul>
+                <li>Bruxelles</li>
+            </ul>
+        </li>
+    </ul>
+    <ul>
+        <li>Allemagne
+            <ul>
+                <li>Berlin</li>
+            </ul>
+        </li>
+    </ul>
+    <ul>
+        <li>France</li>
+        <ul>
+            <li>Paris</li>
+        </ul>
+    </ul>
+
+    <h5>Liste numérique:</h5>
+    <ol>
+        <li>Belgique
+            <ol>
+                <li>Bruxelles</li>
+                <li>Anvers</li>
+            </ol>
+        </li>
+        <li>Allemagne
+            <ol>
+                <li>Berlin</li>
+            </ol>
+        </li>
+        <li>France
+            <ol>
+                <li>Paris</li>
+            </ol>
+        </li>
+    </ol>
+
+    <p>Pour avoir le même résultat, il faudra simplement créer un tabulation (appuyez sur la touche Tab de votre claier)
+        puis
+        procéder de la même façon que sur les exemples précédents.</p>
+
+    <div class="exemple">
+        <ul>
+            <li>Belgique
+                <ul>
+                    <li>Bruxelles</li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>Allemagne
+                <ul>
+                    <li>Berlin</li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>France
+                <ul>
+                    <li>Paris</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <p>PS: pour la liste numérique imbriquée, il vous faudra commencer par 4 espaces avant d'énumérer vos éléments.</p>
+    <!--FIN LISTE-->
+    <!-- FIN PARTIE 2 ILLIAS LISTES -->
+
+    <!--PARTIE 3 JAWAD COMMENT INSERER UN LIEN OU UNE IMAGE -->
+    <h1>Comment insérer un lien ou une image en MarkDown ?</h1>
+    <hr>
+
+    <!--PARAGRAPHE LIENS-->
+    <h2>Liens</h2>
+    <hr>
+    <p>Contrairement au Html où l'utilisation de balises était nécessaire, en MarkDown, il suffit de placer le texte du
+        lien
+        entre crochets suivis de l'URL entre parenthèses. Voyons comment cela fonctionne en pratique, avec la page
+        d'OpenClassRooms qui est notre principale source d'inspiration. Je tape le texte "OpenClassRooms" entre [] et
+        j'insère
+        le lien entre parenthèses juste après : [texte](Lien). Exemple : <a href="https://openclassrooms.com/courses/redigez-en-markdown">OpenClassRooms.</a></p>
+    <!--FIN PARAGRAPHES LIENS-->
+
+    <!--PARAGRAPHE IMAGES-->
+    <h2>Images</h2>
+    <hr>
+    <p>Pour ce qui est des images, le principe est le même, à la seule différence qu'il faut rajouter un point
+        d'exclamations
+        juste avant les crochets : ![texte alternatif](lien de l'image). Pour l'exemple, après de longues discussions,
+        il a
+        été décidé d'utiliser le</p>
+    <p>Pingouin Ninja <img id="pingouin"
+                           src="https://www.spreadshirt.be/image-server/v1/mp/designs/14527900,width=178,height=178/pingouin-ninja.png"
+                           alt="pingouinn"></p>
+    </p>
+
+    <h2>Images animées</h2>
+    <hr>
+    <p>
+        Afin de vous exprimer notre gratitude, notre dino-dabeur tenait à vous faire une démonstration des images
+        animées en
+        MarkDown, à nouveau le principe est exactement le même que pour les images normales
+        <img id="dino" src="https://media.giphy.com/media/l3zoKeX8bMG5sMP4s/giphy.gif" alt="dinodab">
+    </p>
+    <!--FIN PARAGRAPHE IMAGE-->
+    <!-- FIN PARTIE 3 COMMENT INSERER UN LIEN OU UNE IMAGE -->
+</div>
+</body>
+</html>
