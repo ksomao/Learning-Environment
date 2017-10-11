@@ -2,27 +2,69 @@
 body {
     background: url("stars.jpg") center center;
     background-size: cover;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     overflow: hidden;
 }
 
-.star-wars {
-    width: 600px;
-    margin: 0 auto;
-    height: 800px;
-    text-align: justify;
-    font-weight:bold;
-    color: #feda4a;
-    font-size:  500%;
-    transform: perspective(300px) rotateX(25deg) ;
+img {
+    height: 90vh;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.longTimeAgo {
+    font-size: 80px;
+    font-family: sans-serif;
+    color: #4bd5ee;
+    opacity: 0;
+    margin: 10% auto;
+    width: 60%;
+    text-align: center;
+    animation: longTimeAgoAnim 5s linear;
+}
+
+.logo {
+    position: relative;
+    margin: -400px auto;
+    opacity: 0;
+    width: 80%;
+    animation: logo 5s linear;
+    animation-delay: 5s;
+    background: red;
 }
 
 .crawl {
     position: relative;
     top: -100px;
+    opacity: 0;
     transform-origin: 50% 100%;
     animation: crawl 80s linear;
+    animation-delay: 6s;
+}
+
+.star-wars {
+    width: 50%;
+    margin: -500px auto;
+    height: 800px;
+    text-align: justify;
+    font-weight: bold;
+    color: #feda4a;
+    font-size: 500%;
+    transform: perspective(300px) rotateX(25deg);
+}
+
+@keyframes longTimeAgoAnim {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 @keyframes crawl {
@@ -34,6 +76,19 @@ body {
     100% {
         top: -6000px;
         transform: translateZ(-2500px);
+        opacity: 0;
+    }
+}
+
+@keyframes logo {
+    0% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0);
         opacity: 0;
     }
 }
