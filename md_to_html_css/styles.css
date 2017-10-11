@@ -5,8 +5,13 @@ body{
     max-width:1020px;
     margin: 0 auto;
     padding: 20px;
-    border: 2px solid lightgray;
+    border: 2px solid #685995;
     border-radius: 5px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #3D267F;
+    text-transform: uppercase;
 }
 
 hr{
@@ -14,8 +19,10 @@ hr{
 }
 
 .exemple{
-    background: #f4f4f4;
+    border: 2px solid #685995;
+    background: #8F7ACC;
     padding: 10px;
     border-radius:5px;
     text-decoration: none;
+    color: white;
 }

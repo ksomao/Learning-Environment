@@ -14,7 +14,7 @@ body {
     text-align: justify;
     font-weight:bold;
     color: #feda4a;
-    font-size:  350%;
+    font-size:  500%;
     transform: perspective(300px) rotateX(25deg) ;
 }
 
@@ -27,7 +27,7 @@ body {
 
 @keyframes crawl {
     0% {
-        top: 500px;
+        top: 1000px;
         transform: translateZ(0);
         opacity: 1;
     }
